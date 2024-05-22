@@ -1,5 +1,5 @@
-import generatorNums from '../src/genrannum.js';
-import runGameFunc from '../src/gameplay.js';
+import generatorNums from '../src/randomNumbers.js';
+import runGameFunc from '../src/startGame.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 

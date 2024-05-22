@@ -1,6 +1,5 @@
-#!/usr/bin/env node
-import generatorNums from '../src/genrannum.js';
-import runGameFunc from '../src/gameplay.js';
+import randomizeGenerator from '../src/randomNumbers.js';
+import startGame from '../src/startGame.js';
 
 const description = 'What is the result of the expression?';
 const operator = ['+', '-', '*'];
@@ -24,15 +23,15 @@ const result = (num1, num2, getRandomExample) => {
 
 const getAnswerAndQuestion = () => {
   const getRandomExample = operator[Math.floor(Math.random() * operator.length)];
-  const num1 = generatorNums(1, 10);
-  const num2 = generatorNums(1, 10);
+  const num1 = randomizeGenerator(1, 10);
+  const num2 = randomizeGenerator(1, 10);
   const question = `${num1} ${getRandomExample} ${num2}`;
   const rightAnswer = String(result(num1, num2, getRandomExample));
   return [question, rightAnswer];
 };
 
 const brainCalc = () => {
-  runGameFunc(description, getAnswerAndQuestion);
+  startGame(description, getAnswerAndQuestion);
 };
 
 brainCalc();

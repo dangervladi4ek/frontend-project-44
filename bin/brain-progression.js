@@ -1,5 +1,5 @@
-import runGameFunc from '../src/gameplay.js';
-import generatorNums from '../src/genrannum.js';
+import runGameFunc from '../src/startGame.js';
+import generatorNums from '../src/randomNumbers.js';
 
 const description = 'What number is missing in the progression?';
 
