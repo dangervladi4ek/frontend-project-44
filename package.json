@@ -19,7 +19,6 @@
     "brain-prime": "bin/brain-prime.js"
   },
   "dependencies": {
-    "game-brainbro": "^0.0.0",
     "readline-sync": "^1.4.10"
   }
 }
