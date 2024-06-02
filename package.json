@@ -1,8 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "(https://github.com/dangervladi4ek/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dangervladi4ek/frontend-project-44/actions)",
   "scripts": {
     "test": "npm test"
   },
@@ -22,6 +21,6 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^9.3.0"
+    "eslint": "^9.4.0"
   }
 }
