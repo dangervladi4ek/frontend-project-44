@@ -25,4 +25,4 @@ const getAnswerAndQuestion = () => {
 const brainPrime = () => {
   runGameFunc(description, getAnswerAndQuestion);
 };
-brainPrime()
+brainPrime();
