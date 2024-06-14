@@ -13,7 +13,7 @@ publish:
 lint:
 	npx eslint .
 lint-fix:
-	npm run lint-fix
+	npx eslint . --fix
 brain-even:
 	node bin/brain-even.js
 brain-calc:
